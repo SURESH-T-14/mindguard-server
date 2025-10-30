@@ -1,12 +1,21 @@
 {
   "name": "mindguard-server",
   "version": "1.0.0",
-  "description": "AI backend for the MindGuard Chrome Extension",
+  "description": "...",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": { ... },
+  "keywords": [ ... ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   },
+  "engines": {
+    "node": "22.13.1" 
+  }
+}
+
   "keywords": [
     "ai",
     "security",
@@ -19,4 +28,5 @@
     "cors": "^2.8.5",
     "express": "^4.19.2"
   }
+
 }
